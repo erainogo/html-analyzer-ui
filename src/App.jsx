@@ -21,7 +21,7 @@ export default function App() {
   
       if (!response.ok) {
         const errorText = await response.text();
-        throw new Error(`Error ${response.status}: ${errorText}`);
+        throw new Error(`${errorText} ${response.status}`);
       }
   
       const data = await response.json();
