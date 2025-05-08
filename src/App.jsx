@@ -36,7 +36,7 @@ export default function App() {
 
   return (
     <div className="container">
-      <div className="card">
+      <div className={`card ${result ? 'top-aligned' : 'centered'}`}>
         <h1>Html Analyzer</h1>
 
         <form onSubmit={(e) => { e.preventDefault(); handleAnalyze(); }}>

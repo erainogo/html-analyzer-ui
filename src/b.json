@@ -1,0 +1,24 @@
+{
+    "report_config": {
+        "api_enabled": false,
+        "cc_emails": "uat@betmakers.com,sam.hindi@betmakers.com",
+        "config_name": "fort_night_customer_balance_report",
+        "email_enabled": true,
+        "file_csv_enabled": true,
+        "file_excel_enabled": false,
+        "file_pdf_enabled": false,
+        "file_xml_enabled": false,
+        "header_enabled": true,
+        "is_vtr_only": false,
+        "isMonthly" : false,
+        "mts_enabled": false,
+        "racing_body": "BETGOLD",
+        "racing_only_turnover": false,
+        "report_type": "fort_night_customer_balance_report",
+        "sftp_enabled": false,
+        "show_bookmaker_details": false,
+        "subtype_name": "",
+        "tenant_id": "ab60319e-d8ab-43a3-add6-8cf08a656a3c"
+    },
+    "tenant_id": "ab60319e-d8ab-43a3-add6-8cf08a656a3c"
+}
