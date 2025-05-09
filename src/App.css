@@ -6,13 +6,20 @@ body, html {
   background-color: #F8F9FA;
   color: #212529;
 }
+
+#root {
+  width: 100%;
+}
+
 .container {
-  height: 100vh; /* Full viewport height */
+  height: 100vh;
+  width: 100%;
   display: flex;
-  align-items: center; /* Vertically center */
-  justify-content: center; /* Horizontally center */
+  align-items: center;
+  justify-content: center;
   padding: 1rem;
 }
+
 .card {
   background: white;
   padding: 2rem;
@@ -23,19 +30,23 @@ body, html {
   box-sizing: border-box;
   transition: all 0.4s ease;
 }
+
 .card.centered {
   align-self: center;
   margin-top: auto;
   margin-bottom: auto;
 }
+
 .card.top-aligned {
   align-self: flex-start;
   margin-top: 2rem;
 }
+
 form {
   display: flex;
   flex-direction: column;
 }
+
 input, button {
   padding: 0.75rem;
   border-radius: 6px;

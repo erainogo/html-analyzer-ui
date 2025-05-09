@@ -61,7 +61,7 @@ export default function App() {
             <p><strong>Headings:</strong></p>
             <ul>
               {Object.entries(result.headings || {}).map(([level, count]) => (
-                <li key={level}>H{level}: {count}</li>
+                <li key={level}>{level}: {count}</li>
               ))}
             </ul>
             <p><strong>Links:</strong></p>
